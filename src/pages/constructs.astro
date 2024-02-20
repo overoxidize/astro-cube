@@ -1,0 +1,54 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Concepts">
+  <main>
+    <article class="region prose wrapper hero">
+      <h2>Concepts</h2>
+      <ul role="list" class="grid features">
+
+
+        <section>
+
+          <h3>The ArtRiver.</h3>
+          <p>
+            Every creative project is an ArtRiver, which will exist locally.
+          </p>
+        </section>
+        <section>
+
+          <h3>The Timeshore.</h3>
+          <p>
+            For each ArtRiver project, there is an associated Timeshore, a metadata focused data structure
+            that will chronicle major and minor changes, and save points, throughout
+            the lifetime of an ArtRiver.
+          </p>
+        </section>
+        <section>
+
+          <h3>The Glacier.</h3>
+          <p>
+            Once a change to an ArtRiver project is finalized, it will be preserved in the Glacier, a data construct which mirrors
+            an ArtRiver, and applies changes from the Timeshore. It is analagous to a remote, and allows for collaboration and
+            synchronization/distribution of changes to ArtRiver project.
+          </p>
+        </section>
+        <section>
+
+          <h3>The Iceberg.</h3>
+          <p>
+            Once a change has been preserved in a Glacier, it will be stored in the Iceberg, a compressed replica of the project and it's history.
+            It is a last resort redunancy solution, for extreme situations where remotes become corrupted or destroyed.
+          </p>
+        </section>
+      </ul>
+    </article>
+    <footer class="region prose wrapper">
+      <a href="/purpose/">Purpose</a>,
+      <a href="/overview/">Overview</a>,
+      <a href="/cratemap/">Cratemap</a>,
+      <a href="/">Home</a>.
+    </footer>
+  </main>
+</Layout>
